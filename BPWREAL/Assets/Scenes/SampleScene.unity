@@ -2987,6 +2987,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: reuzenrad2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 375178f7e215522459c836f3b93b52f7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5800,7 +5805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1323971441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5918,7 +5923,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 272, z: 352}
+  m_LocalEulerAnglesHint: {x: 356, y: 8, z: 1}
 --- !u!95 &1323971445
 Animator:
   serializedVersion: 5
@@ -6535,14 +6540,12 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -1728658799816711242, guid: ace85c4281b898543ac9dbae29bad2fd, type: 2}
-    value: {fileID: 1323971445}
-  - key: {fileID: 8909819203570626446, guid: ace85c4281b898543ac9dbae29bad2fd, type: 2}
-    value: {fileID: 227316912}
   - key: {fileID: 621726941707590229, guid: ace85c4281b898543ac9dbae29bad2fd, type: 2}
     value: {fileID: 668767160}
   - key: {fileID: -4118158273577161530, guid: ace85c4281b898543ac9dbae29bad2fd, type: 2}
     value: {fileID: 1323971445}
+  - key: {fileID: -8441242340188125619, guid: ace85c4281b898543ac9dbae29bad2fd, type: 2}
+    value: {fileID: 1323971440}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1507240139
