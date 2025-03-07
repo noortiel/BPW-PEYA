@@ -604,7 +604,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 58.7, y: 0.26366425, z: -1.2}
-  m_LocalScale: {x: 23.633532, y: 7.5496, z: 19.44022}
+  m_LocalScale: {x: 27.629963, y: 7.5496, z: 19.44022}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3181,6 +3181,7 @@ GameObject:
   - component: {fileID: 668767158}
   - component: {fileID: 668767156}
   - component: {fileID: 668767159}
+  - component: {fileID: 668767160}
   m_Layer: 0
   m_Name: Human
   m_TagString: Untagged
@@ -3223,7 +3224,7 @@ Transform:
   m_GameObject: {fileID: 668767155}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.51, y: 0.67, z: 16.1}
+  m_LocalPosition: {x: 0.51, y: 0.349, z: 16.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3273,6 +3274,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 1282620238}
   playerActivateDistance: 10
+--- !u!95 &668767160
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668767155}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &672779638
 GameObject:
   m_ObjectHideFlags: 0
@@ -5890,13 +5912,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323971440}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.04525859, y: 0.69784, z: 0.044268306, w: 0.7134504}
+  m_LocalRotation: {x: -0.049728904, y: 0.6926142, z: 0.042107295, w: 0.718359}
   m_LocalPosition: {x: 45.28, y: 2.46, z: -1.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 359, y: 2, z: 3}
+  m_LocalEulerAnglesHint: {x: 0, y: 272, z: 352}
 --- !u!95 &1323971445
 Animator:
   serializedVersion: 5
@@ -6490,6 +6512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1507240139}
   - component: {fileID: 1507240138}
+  - component: {fileID: 1507240140}
   m_Layer: 0
   m_Name: Timeline
   m_TagString: Untagged
@@ -6514,6 +6537,12 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -1728658799816711242, guid: ace85c4281b898543ac9dbae29bad2fd, type: 2}
     value: {fileID: 1323971445}
+  - key: {fileID: 8909819203570626446, guid: ace85c4281b898543ac9dbae29bad2fd, type: 2}
+    value: {fileID: 227316912}
+  - key: {fileID: 621726941707590229, guid: ace85c4281b898543ac9dbae29bad2fd, type: 2}
+    value: {fileID: 668767160}
+  - key: {fileID: -4118158273577161530, guid: ace85c4281b898543ac9dbae29bad2fd, type: 2}
+    value: {fileID: 1323971445}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1507240139
@@ -6525,12 +6554,33 @@ Transform:
   m_GameObject: {fileID: 1507240137}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.050293, y: 0.59163475, z: 0.4323483}
+  m_LocalPosition: {x: 59.050293, y: 1.22, z: 0.4323483}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1507240140
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507240137}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cfe93f993be4d8242b12f5c66d08418f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1521076273
 GameObject:
   m_ObjectHideFlags: 0
