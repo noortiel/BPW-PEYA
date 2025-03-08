@@ -12,6 +12,5 @@ public class CutsceneTimeline : MonoBehaviour
     {
         director.Play();
 
-        Debug.Log("Timeline!");
     }
 }
