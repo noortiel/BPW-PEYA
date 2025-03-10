@@ -10,12 +10,11 @@ public class MenuScript : MonoBehaviour
    private void OnTriggerStay(Collider rightSide)
     {
 
-        CutsceneCamera.SetActive(false);
+       CutsceneCamera.SetActive(false);
         
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            SceneManager.LoadScene("MainMenu");
-        }
+       SceneManager.LoadScene("MainMenu");
+       Cursor.lockState = CursorLockMode.None;
+        
     }
 
 }
