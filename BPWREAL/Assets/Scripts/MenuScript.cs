@@ -14,6 +14,7 @@ public class MenuScript : MonoBehaviour
         
        SceneManager.LoadScene("MainMenu");
        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         
     }
 
